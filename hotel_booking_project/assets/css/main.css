@@ -184,7 +184,6 @@
     font-family: mulibold, sans-serif;
     color: var(--white-color);
     text-decoration: none;
-    /* font-weight: 500; */
     font-size: 1.4rem;
     line-height: 1.8rem;
 }
@@ -214,4 +213,73 @@
     line-height: 13px;
 }
 
+/* hotel page */
 
+.container__hotelpage {
+
+}
+
+
+.container__hotelpage-top {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container__hotelpage-top-title {
+
+}
+
+.container__hotelpage-top-title-voted {
+    display: flex;
+    align-items: flex-end;
+}
+
+.container__hotelpage-top-title-voted svg {
+    margin-right: 4px;
+}
+
+.container__hotelpage-top-title-name {
+    position: relative;
+
+}
+
+.container__hotelpage-top-title-name h2 {
+    font-family: mulibold,sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--text-color);
+    margin: 0;
+}
+
+.container__hotelpage-top-title-name-btn {
+    position: absolute;
+    top: 6px;
+    right: -30px;
+    width: 70px;
+    height: 20px;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.container__hotelpage-top-title-description {
+
+}
+
+.container__hotelpage-top-rating {
+
+}
+
+.container__hotelpage-top-rating-label {
+
+}
+
+.container__hotelpage-top-rating-scores {
+
+}
+
+.container__hotelpage-top-rating-scores-current {
+
+}
