@@ -25,11 +25,16 @@
     text-decoration: none;
     display: flex;
     align-items: center;
-    color: var(--text-color);
+    color: var(--text-color);    
+    margin-top: 4px;
+}
+
+.header__nav-top-gift-icon {
+    margin-top: 4px;
 }
 
 .header__nav-top-gift-name {
-    padding-left: 20.75px;
+    padding-left: 20px;
 }
 
 .header__nav-top-program {
@@ -42,11 +47,16 @@
     text-decoration: none;
     display: flex;
     align-items: center;
-    color: var(--text-color);
+    color: var(--text-color);    
+    margin-top: 4px;
+}
+
+.header__nav-top-program-icon {
+    margin-top: 4px;
 }
 
 .header__nav-top-program-name {
-    padding-left: 20.75px;
+    padding-left: 20px;
 }
 
 /* header search */
@@ -59,6 +69,7 @@
 
 .header__search-logo {
     margin-right: 108px;
+    margin-top: 6px;
 }
 
 .header__search-wrap {
@@ -136,9 +147,11 @@
     line-height: 1.8rem;
     font-weight: normal;
     margin-left: 18px;
+    color: var(--text-color);
 }
 
 .header__search-user-icon {
     margin-left: 24px;
     cursor: pointer;
+    margin-right: 3px;
 }
