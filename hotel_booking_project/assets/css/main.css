@@ -216,6 +216,7 @@
 /* hotel page */
 
 /* hotelpage-top */
+
 .container__hotelpage-top {
     height: 100px;
     display: flex;
@@ -445,7 +446,6 @@
     font-size: .7rem;
 }
 
-
 .map__views p {
     margin: 0px 8px;
 }
@@ -454,3 +454,36 @@
     color: #007ADF;
 }
     
+/* Body navbar */
+
+.container__bodynav {
+    margin-top: 67px;
+    margin-bottom: 60px;
+}
+
+.container__bodynav-wrap {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__bodynav-list-link {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--text-color);
+    padding-bottom: 13px;
+    padding-right: 6px;
+}
+
+.container__bodynav-list-link:hover {
+    color: var(--primary-color);
+}
+
+.container__bodynav-list--active
+.container__bodynav-list-link{
+    color: var(--primary-color);
+    border-bottom: 4px solid var(--primary-color);
+}
