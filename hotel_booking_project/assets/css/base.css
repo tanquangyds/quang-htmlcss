@@ -3,6 +3,11 @@
     font-family: Muli;
 }
 
+@font-face {
+    src: url(../font/muli-bold-webfont.woff2);
+    font-family: Muli-bold;
+}
+
 :root {
     --primary-color: #EC1F46;
     --secondary-color: #0A223D;
