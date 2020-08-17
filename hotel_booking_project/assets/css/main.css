@@ -189,11 +189,11 @@
 }
 
 /* sub header */
-.container__subheader {
+.main__subheader {
     height: 50px;
 }
 
-.container__subheader-wrap {
+.main__subheader-wrap {
     height: 100%;
     list-style: none;
     display: flex;
@@ -202,11 +202,11 @@
     margin: 0px;
 }
 
-.container__subheader-list {
+.main__subheader-list {
     padding-right: 2px;
 }
 
-.container__subheader-list a{
+.main__subheader-list a{
     text-decoration: none;
     color: var(--text-color);
     font-size: 1.0rem;
@@ -217,7 +217,7 @@
 
 /* hotelpage-top */
 
-.container__hotelpage-top {
+.main__hotelpage-top {
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -225,23 +225,23 @@
 
 }
 
-.container__hotelpage-top-title {
+.main__hotelpage-top-title {
 }
 
-.container__hotelpage-top-title-voted {
+.main__hotelpage-top-title-voted {
     display: flex;
     align-items: flex-end;
 }
 
-.container__hotelpage-top-title-voted svg {
+.main__hotelpage-top-title-voted svg {
     margin-right: 4px;
 }
 
-.container__hotelpage-top-title-name {
+.main__hotelpage-top-title-name {
     position: relative;
 }
 
-.container__hotelpage-top-title-name h2 {
+.main__hotelpage-top-title-name h2 {
     font-weight: bold;
     font-size: 2.4rem;
     line-height: 3.0rem;
@@ -249,7 +249,7 @@
     margin: 2px 0px;
 }
 
-.container__hotelpage-top-title-name-label {
+.main__hotelpage-top-title-name-label {
     position: absolute;
     top: 8px;
     right: 50px;
@@ -260,14 +260,14 @@
     border-radius: 3px;
 }
 
-.container__hotelpage-top-title-description {
+.main__hotelpage-top-title-description {
     margin: 0px;
     font-size: 1.2rem;
     line-height: 1.5rem;
 
 }
 
-.container__hotelpage-top-rating {
+.main__hotelpage-top-rating {
     width: 65px;
     height: 45px;
     background-color: var(--primary-color);
@@ -279,26 +279,26 @@
     align-items: center;
 }
 
-.container__hotelpage-top-rating-label {
-    font-size: 8px;
-    line-height: 10px;
+.main__hotelpage-top-rating-label {
+    font-size: .8rem;
+    line-height: 1.0rem;
     font-weight: 600;
     padding-top: 6px;
 }   
 
-.container__hotelpage-top-rating-scores {
+.main__hotelpage-top-rating-scores {
     font-size: 1.4rem;
     font-weight: bold;    
     padding-bottom: 2px;
 }
 
-.container__hotelpage-top-rating-scores
-.container__hotelpage-top-rating-scores--max {
+.main__hotelpage-top-rating-scores
+.main__hotelpage-top-rating-scores--max {
     font-size: 1.0rem;
 }
 /* hotelpage-showcase */
 
-.container__hotelpage-showcase {
+.main__hotelpage-showcase {
     width: 100%;
     height: 450px;
     position: relative;
@@ -308,7 +308,7 @@
     font-family: 'Nunito', sans-serif;
 }
 /* cover img */
-.container__hotelpage-gallery-showcase-img {
+.main__hotelpage-gallery-showcase-img {
     background-image: 
     linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%),
     url(/hotel_booking_project/assets/img/grand_hilton_hotel.png);
@@ -319,14 +319,14 @@
 }
 
 /* showcase-info */
-.container__hotelpage-showcase-info {
+.main__hotelpage-showcase-info {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 /* info-card */
-.container__hotelpage-showcase-info-card {
+.main__hotelpage-showcase-info-card {
     width: 350px;
     height: 210px;
     background-color: var(--secondary-color);
@@ -399,7 +399,7 @@
     width: 295px;
     height: 45px;
     border-radius: 4px;
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 19px;
     font-weight: 600;
     margin-top: 17px;
@@ -407,7 +407,7 @@
 
 
 /* info- */
-.container__hotelpage-showcase-info-map {
+.main__hotelpage-showcase-info-map {
     width: 347px;
     height: 213px;
     position: relative;
@@ -456,34 +456,77 @@
     
 /* Body navbar */
 
-.container__bodynav {
+.main__bodynav {
     margin-top: 67px;
     margin-bottom: 60px;
 }
 
-.container__bodynav-wrap {
+.main__bodynav-wrap {
     padding-left: 0;
     list-style: none;
     display: flex;
     justify-content: space-between;
 }
 
-.container__bodynav-list-link {
+.main__bodynav-list-link {
     text-decoration: none;
     font-weight: bold;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
     color: var(--text-color);
     padding-bottom: 13px;
     padding-right: 6px;
 }
 
-.container__bodynav-list-link:hover {
+.main__bodynav-list-link:hover {
     color: var(--primary-color);
 }
 
-.container__bodynav-list--active
-.container__bodynav-list-link{
+.main__bodynav-list--active
+.main__bodynav-list-link{
     color: var(--primary-color);
     border-bottom: 4px solid var(--primary-color);
+}
+/* body summery */
+
+.main__body {
+
+}
+.main__body-overview {
+    
+}
+
+.body-overview__highlights {
+    width: 538px;
+}
+
+.body-overview__header {
+    width: 100%;
+    height: 50px;
+    background-color: var(--secondary-color);    
+    display: flex;
+    align-items: center;
+    
+}
+
+.body-overview__header h4{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;color: var(--white-color);
+    margin-left: 24px;
+}
+.body-overview__list {
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.body-overview__list-item {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.body-overview__list-item-icon {
+    margin-right: 25px;
 }

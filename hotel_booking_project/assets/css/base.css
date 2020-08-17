@@ -58,3 +58,19 @@ html {
 .btn__book-now {
 
 }
+
+.icon__checked {
+    width: 16.5px;
+    height: 16.5px;
+    border-radius: 50%;
+    background-color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check-list {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--text-color);
+}
