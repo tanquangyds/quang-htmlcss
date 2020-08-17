@@ -37,12 +37,23 @@ html {
 
 .label__flash-offer {
     background-color: var(--primary-color);
-    border-radius: 3px;
     color: var(--white-color);
     display: inline-flex;
     justify-content: center;
     align-items: center;
 }
+
+.btn {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
 
 .btn__book-now {
 

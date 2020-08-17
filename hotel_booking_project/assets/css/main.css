@@ -215,11 +215,7 @@
 
 /* hotel page */
 
-.container__hotelpage {
-
-}
-
-
+/* hotelpage-top */
 .container__hotelpage-top {
     height: 100px;
     display: flex;
@@ -260,6 +256,7 @@
     height: 20px;
     font-size: 1rem;
     line-height: 2rem;
+    border-radius: 3px;
 }
 
 .container__hotelpage-top-title-description {
@@ -285,14 +282,175 @@
     font-size: 8px;
     line-height: 10px;
     font-weight: 600;
+    padding-top: 6px;
 }   
 
 .container__hotelpage-top-rating-scores {
     font-size: 1.4rem;
-    font-weight: bold;
+    font-weight: bold;    
+    padding-bottom: 2px;
 }
 
 .container__hotelpage-top-rating-scores
 .container__hotelpage-top-rating-scores--max {
     font-size: 1.0rem;
 }
+/* hotelpage-showcase */
+
+.container__hotelpage-showcase {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Nunito', sans-serif;
+}
+/* cover img */
+.container__hotelpage-gallery-showcase-img {
+    background-image: 
+    linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%),
+    url(/hotel_booking_project/assets/img/grand_hilton_hotel.png);
+    height: 100%;
+    width: 728px;
+    background-size: cover;    
+    border-radius: 8px;
+}
+
+/* showcase-info */
+.container__hotelpage-showcase-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* info-card */
+.container__hotelpage-showcase-info-card {
+    width: 350px;
+    height: 210px;
+    background-color: var(--secondary-color);
+    border-radius: 8px;    
+    color: var(--white-color);
+}
+
+.info-card-description {    
+    margin: 29px 26px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-card__price p {
+    margin: 0px;
+}
+
+.info-card__price-start {
+    font-size: 1rem;
+    line-height: 1.4rem;    
+}
+
+.info-card__price-value {
+    font-size: 2.4rem;
+    line-height: 3.0rem;
+    font-weight: 800;
+}
+
+.info-card__price-detail {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
+
+.info-card__room {
+    color: var(--white-color);
+    font-size: 1.2rem;
+    width: 80px;
+    height: 40px;
+}
+
+.info-card__room-guest {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-card__room-qnt {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-card-quickcall {
+    margin: 0px 26px;
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+}
+.info-card-quickcall h4 {
+    margin: 0px;
+    font-weight: 600;
+}
+.info-card__phone-icon {
+    margin: 0px 11px 0 auto;
+}
+
+.btn__view-option {
+    margin: 0px 26px;
+    width: 295px;
+    height: 45px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 600;
+    margin-top: 17px;
+}
+
+
+/* info- */
+.container__hotelpage-showcase-info-map {
+    width: 347px;
+    height: 213px;
+    position: relative;
+
+}
+
+.map__zoom {
+    width: 17px;
+    height: 40px;
+    background-color: var(--white-color);
+    border-radius: 2px;
+    position: absolute;
+    top: 30px;
+    right: 18px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.map__zoom  p {
+    margin: 0px;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+}
+
+.map__views {
+    width: 145px;
+    height: 20px;
+    background-color: var(--white-color);
+    border-radius: 2px;
+    position: absolute;
+    bottom: 17px;
+    left: 101px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: .7rem;
+}
+
+
+.map__views p {
+    margin: 0px 8px;
+}
+
+.map__views--current {
+    color: #007ADF;
+}
+    
