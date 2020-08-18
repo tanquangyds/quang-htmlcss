@@ -40,6 +40,32 @@ html {
     margin: 0 auto;
 }
 
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: -13px;
+    margin-right: -13px;
+}
+
+.grid__row-main {    
+    padding-top: 22px;
+}
+
+.grid__row-footer {
+    padding-top: 15px;
+}
+
+.grid__column-3 {
+    width: 33.333%;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+
+
+
+
 .label__flash-offer {
     background-color: var(--primary-color);
     color: var(--white-color);
@@ -64,14 +90,24 @@ html {
 
 }
 
+.content__list-with-icon {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+
 .icon__checked {
     width: 16.5px;
     height: 16.5px;
     border-radius: 50%;
+    background-image: url(../img/check.svg);
+    background-repeat: no-repeat;
     background-color: var(--text-color);
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 25px;    
 }
 
 .check-list {
