@@ -79,14 +79,13 @@ html {
     border-color: transparent;
     outline: none;
     cursor: pointer;
-    border-radius: 4px;
 }
-
 
 .btn__book-now {
     width: 120px;
     height: 40px;
     font-size: 1.4rem;
+    border-radius: 4px;
 
 }
 
@@ -116,10 +115,8 @@ html {
     color: var(--text-color);
 }
 
-
 .voted__five-star {
     display: flex;
-    /* align-items: flex-end; */
 }
 
 .voted__five-star img {
@@ -129,6 +126,10 @@ html {
 .flex-center {
     display: flex;
     align-items: center;
+}
+
+.flex-justify-center {
+    justify-content: center;
 }
 
 .hotel__name {
@@ -153,7 +154,6 @@ html {
     margin: 7px 0px;
 }
 
-
 .icon-with-text {
     padding: 5px 0px;
 }
@@ -164,9 +164,5 @@ html {
 
 .description-text-with-icon {
     font-size: 1.2rem;
-    line-height: 1.5rem;
+    line-height: 1.5rem;       
 }
-
-
-
-
