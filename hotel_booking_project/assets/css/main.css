@@ -225,18 +225,6 @@
 
 }
 
-.main__hotelpage-top-title {
-}
-
-.main__hotelpage-top-title-voted {
-    display: flex;
-    align-items: flex-end;
-}
-
-.main__hotelpage-top-title-voted img {
-    margin-right: 4px;
-}
-
 .main__hotelpage-top-title-name {
     position: relative;
 }
@@ -258,6 +246,7 @@
     font-size: 1rem;
     line-height: 2rem;
     border-radius: 3px;
+    justify-content: center; 
 }
 
 .main__hotelpage-top-title-description {
@@ -656,4 +645,115 @@
     line-height: 4.5rem;
     margin: 40px 0px;
     text-align: center;
+}
+
+/* Package row 1 */
+
+.package-row-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 65px 0px 30px;
+    color: var(--white-color);
+}
+
+.package-row-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.package__large {
+    display: flex;
+    width: 730px;
+    height: 500px;
+    border-radius: 8px;
+    background-color: var(--secondary-color);
+    overflow: hidden;
+    position: relative;
+}
+
+.package__large-info {
+    width: 299px;
+    margin: 47px 0px 35px 44px;
+}
+
+
+.package__large-info-hotel-name {
+    font-family: Muli-bold;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    margin: 6px 0px 27px;
+}
+
+.package__large-info-hotel-description {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    margin-bottom: 45px;
+}
+
+.package__large-info-hotel-detail {
+    margin-bottom: 34px;
+}
+
+
+.package__large-flash-offer {
+    position: absolute;
+    width: 95px;
+    height: 30px;
+    left: 0px;
+    top: 25px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding-left: 10px;
+    font-size: 1.2rem;
+}
+
+.package__large-btn {
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+}
+
+/* package small - modal */
+
+.package__small {
+    width: 350px;
+    height: 500px;
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.package__small-content-wrap {
+    margin: 20px 0px 0px 32px;
+}
+
+.package__small-info-hotel-detail {
+    margin: -10px 0px 16px;
+}
+
+.package__small-flash-offer {
+    position: absolute;
+    width: 60px;
+    height: 18px;
+    left: 0px;
+    top: 25px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding-left: 9px;
+    font-size: 0.8rem;
+}
+
+.package__small-btn {
+    position: absolute;
+    right: 20px;
+    bottom: 24px;
+}
+
+/* Package row 2 */
+
+.package-row-2 {
+    color: var(--white-color);
 }

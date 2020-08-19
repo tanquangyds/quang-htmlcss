@@ -62,16 +62,12 @@ html {
     padding-right: 13px;
 }
 
-
-
-
-
 .label__flash-offer {
     background-color: var(--primary-color);
     color: var(--white-color);
-    display: inline-flex;
-    justify-content: center;
+    display: flex;
     align-items: center;
+    font-weight: 400;
 }
 
 .btn {
@@ -83,10 +79,14 @@ html {
     border-color: transparent;
     outline: none;
     cursor: pointer;
+    border-radius: 4px;
 }
 
 
 .btn__book-now {
+    width: 120px;
+    height: 40px;
+    font-size: 1.4rem;
 
 }
 
@@ -115,3 +115,58 @@ html {
     line-height: 1.5rem;
     color: var(--text-color);
 }
+
+
+.voted__five-star {
+    display: flex;
+    /* align-items: flex-end; */
+}
+
+.voted__five-star img {
+    margin-right: 4px;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+
+.hotel__name {
+    font-family: Muli-bold;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    margin: 6px 0px 27px;
+}
+
+.package__info-hotel-price-old {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    text-decoration: line-through;
+    margin: 0px;
+}
+.package__info-hotel-price-new {
+    font-family: Muli-bold;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 3.0rem;
+    margin: 7px 0px;
+}
+
+
+.icon-with-text {
+    padding: 5px 0px;
+}
+
+.detail__icon {
+    margin-right: 16px;
+}
+
+.description-text-with-icon {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+
+
+
