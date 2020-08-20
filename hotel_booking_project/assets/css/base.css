@@ -82,6 +82,7 @@ html {
 }
 
 .btn__book-now {
+    font-family: Muli-bold;
     width: 120px;
     height: 40px;
     font-size: 1.4rem;

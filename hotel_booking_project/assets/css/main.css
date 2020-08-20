@@ -604,8 +604,8 @@
 
 .content__box-title {
     font-weight: 600;
-    font-size: 13px;
-    line-height: 16px;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
     color: var(--primary-color);
     margin-bottom: 10px;
 }
@@ -880,4 +880,54 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 15px; 
+}
+
+/* body other activities */
+
+.main__activities {
+
+}
+
+.main__activities-title {
+    font-family: Muli-bold;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 60px 0px 0px;
+    text-transform: uppercase;
+}
+
+.main__activities-list {
+    display: flex;
+    justify-content: space-between;
+    color: var(--white-color);
+    margin: 57px 0px 0px;
+}
+
+.main__activities-list-item {
+    width: 255px;
+    height: 255px;
+    border-radius: 6px;
+    position: relative; 
+}
+
+
+.main__activities-list-item-name {
+    position: absolute;
+    left: 26px;
+    bottom: 58px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.0rem;
+}
+
+.main__activities-list-btn {
+    position: absolute;
+    left: 26px;
+    bottom: 24px;
+    width: 100px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
 }
