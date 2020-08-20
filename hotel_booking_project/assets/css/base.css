@@ -129,6 +129,10 @@ html {
     align-items: center;
 }
 
+.flex {
+    display: flex;
+}
+
 .flex-justify-center {
     justify-content: center;
 }
@@ -159,11 +163,23 @@ html {
     padding: 5px 0px;
 }
 
+.icon-with-text,
+.icon-with-text-contact {
+    padding: 10px 0px;
+}
+
+
 .detail__icon {
     margin-right: 16px;
 }
 
-.description-text-with-icon {
-    font-size: 1.2rem;
-    line-height: 1.5rem;       
+.footer__bot-list-contact-description {
+    color: #BDBDBD;
+}
+
+.description-text-with-icon,
+.description-text-with-icon-contact {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    color: #BDBDBD;
 }
