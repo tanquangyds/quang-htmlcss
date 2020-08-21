@@ -161,12 +161,14 @@ html {
 
 .icon-with-text {
     padding: 5px 0px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
 }
 
-.icon-with-text,
+/* .icon-with-text,
 .icon-with-text-contact {
     padding: 10px 0px;
-}
+} */
 
 
 .detail__icon {
@@ -177,9 +179,9 @@ html {
     color: #BDBDBD;
 }
 
-.description-text-with-icon,
+/* .description-text-with-icon,
 .description-text-with-icon-contact {
     font-size: 1.4rem;
     line-height: 2.2rem;
     color: #BDBDBD;
-}
+} */

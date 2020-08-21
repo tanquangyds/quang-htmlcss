@@ -681,11 +681,11 @@
 .package__large-info-hotel-description {
     font-size: 1.4rem;
     line-height: 2.2rem;
-    margin-bottom: 45px;
+    margin-bottom: 42px;
 }
 
 .package__large-info-hotel-detail {
-    margin-bottom: 34px;
+    margin-bottom: 26px;
 }
 
 .package__large-flash-offer {
@@ -705,6 +705,7 @@
     right: 20px;
     bottom: 30px;
 }
+
 
 /* package small - modal */
 
@@ -809,7 +810,7 @@
     transform: translateX(50%);
     height: 90px;
     width: 90px;
-    background-image: url(../img/avatar_review.jfif);
+    background-image: url(../img/avatar_review.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -819,7 +820,7 @@
 /* body subscribe  */
 
 .main__subscribe {
-    background-image: linear-gradient(0deg, rgba(10, 34, 61, 0.8), rgba(10, 34, 61, 0.8)), url(../img/subscrible.jfif);
+    background-image: linear-gradient(0deg, rgba(10, 34, 61, 0.8), rgba(10, 34, 61, 0.8)), url(../img/subscrible.jpg);
     width: 100%;
     height: 260px;    
     background-repeat: no-repeat;
@@ -959,14 +960,6 @@
     height: 255px;
 }
 
-.logo--vertical {
-    
-}
-
-.footer__top-list-item {
-
-}
-
 .footer__top-list-item-title {
     font-weight: bold;
     font-size: 1.8rem;
@@ -1031,6 +1024,7 @@
     font-size: 18px;
     line-height: 23px;
     text-transform: uppercase;
+    margin-top: 0px;
 }
 
 .footer__bot-list-contact-description {
@@ -1042,12 +1036,25 @@
     line-height: 2.2rem;
 }
 
+.icon-with-text-contact {
+    padding: 12px 0px;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    color: #BDBDBD;
+}
+
+
 .footer__bot-list-message {    
+    margin: -35px 0px 0px 28px;
     width: 50%;
 }
 
 .footer__bot-list-message-title {
-
+    font-family: Muli-bold;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    text-transform: uppercase;
+    margin-bottom: 35px;
 }
 
 .footer__bot-list-message-input {
@@ -1058,7 +1065,7 @@
 
 .input__info-general {
     display: block;
-    width: 225px;
+    width: 255px;
     height: 50px;
     padding-left: 23px;
     font-size: 1.2rem;
@@ -1074,7 +1081,7 @@
     border-radius: 4px;
     border: transparent;
     outline: none;
-    padding: 10px 0px 10px 23px;
+    padding: 20px 0px 10px 23px;
     font-size: 1.2rem;
     line-height: 1.5rem;
     margin-top: 15px; 
@@ -1082,5 +1089,48 @@
 
 
 .footer__bot-list-message-send {
+    margin-top: 15px;
     justify-content: space-between;
+}
+
+.message-send__btn {
+    width: 165px;
+    height: 50px;
+    border-radius: 4px;
+    font-size: 1.2rem;    
+}
+
+.message__required {
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.footer__ending {
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 87px;
+}
+
+.footer__ending-policy {
+    padding-left: 0px;
+    list-style: none;
+    display: flex;
+}
+
+.footer__ending-policy-list-link {
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    padding: 0px 3px;
+}
+
+
+.footer__ending-payment {
+    width: 132px;
+    height: 22px;
+    background-image: url(../img/payment.png);
+    background-size: cover;
+    margin-left: 280px;
 }
