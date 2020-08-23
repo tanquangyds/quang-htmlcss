@@ -230,7 +230,6 @@
 }
 
 .main__hotelpage-top-title-name h2 {
-    font-family: Muli-bold;
     font-size: 2.4rem;
     line-height: 3.0rem;
     color: var(--text-color);
@@ -270,13 +269,11 @@
 .main__hotelpage-top-rating-label {
     font-size: .8rem;
     line-height: 1.0rem;
-    font-family: Muli-bold;
     padding-top: 6px;
 }   
 
 .main__hotelpage-top-rating-scores {
     font-size: 1.4rem;
-    font-family: Muli-bold;
     font-weight: 700;   
     padding-bottom: 2px;
 }
@@ -482,7 +479,6 @@
 }
 
 .main__body-package-summery-title {
-    font-family: Muli-bold;
     font-size: 2.4rem;
     line-height: 3.0rem;
     margin: 30px 0px;
@@ -512,7 +508,6 @@
 }
 
 .body-overview__header h4{
-    font-family: Muli-bold;
     font-size: 1.4rem;
     line-height: 1.8rem;
     color: var(--white-color);
@@ -588,7 +583,6 @@
 }
 
 .main__body-detail-header h4{
-    font-family: Muli-bold;
     font-size: 1.4rem;
     line-height: 1.8rem;
     color: var(--white-color);
@@ -634,7 +628,6 @@
 }
 
 .main__body-package-other-title {
-    font-family: Muli-bold;
     font-size: 3.6rem;
     line-height: 4.5rem;
     margin: 40px 0px;
@@ -671,7 +664,6 @@
 }
 
 .package__large-info-hotel-name {
-    font-family: Muli-bold;
     font-weight: bold;
     font-size: 1.8rem;
     line-height: 2.3rem;
@@ -757,7 +749,6 @@
 }
 
 .main__review-title {
-    font-family: Muli-bold;
     text-align: center;
     font-weight: bold;
     font-size: 36px;
@@ -890,7 +881,6 @@
 }
 
 .main__activities-title {
-    font-family: Muli-bold;
     font-weight: bold;
     font-size: 24px;
     line-height: 30px;
@@ -1050,7 +1040,6 @@
 }
 
 .footer__bot-list-message-title {
-    font-family: Muli-bold;
     font-size: 1.8rem;
     line-height: 2.3rem;
     text-transform: uppercase;

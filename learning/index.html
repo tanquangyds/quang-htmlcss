@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width:100px;
+            height: 100px;
+            background-image: attr(src);
+        }
+        .box::after {
+            content:attr(data-image);
+            background-image: url(data:image);
+        }
+
+    </style>
+</head>
+<body>
+   <div class="box" src="../hotel_booking_project/assets/img/blue_marine.jpg"></div> 
+</body>
+</html>
